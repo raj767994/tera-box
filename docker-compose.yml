@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  terabox-bot:
+    build: .
+    restart: always          # auto-restart on crash / server reboot
+    env_file: .env
+    volumes:
+      - ./downloads:/app/downloads
+      - ./cache:/app/cache
+      - ./logs:/app/logs

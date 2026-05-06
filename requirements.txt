@@ -1,0 +1,12 @@
+# TeraBox Telegram Bot — Python dependencies
+# Install with: pip install -r requirements.txt
+
+python-telegram-bot==21.6      # Async Telegram bot framework (PTB v21)
+yt-dlp>=2024.10.07             # Video extraction (always use latest)
+httpx>=0.27.0                  # Async HTTP client (used by PTB internally)
+requests>=2.31.0               # Sync HTTP (fallback / yt-dlp internal)
+python-dotenv>=1.0.0           # Load .env file into environment
+
+# Optional but recommended
+ffmpeg-python>=0.2.0           # Python bindings for FFmpeg post-processing
+aiofiles>=23.2.1               # Async file I/O (future-proofing)
