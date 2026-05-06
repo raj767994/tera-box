@@ -19,7 +19,8 @@ _TERABOX_DOMAINS = re.compile(
     r"(https?://)?(www\.)?"
     r"(terabox\.com|teraboxapp\.com|1024terabox\.com|"
     r"4funbox\.co|momerybox\.com|tibibox\.com|"
-    r"nephobox\.com|freeterabox\.com|mirrobox\.com)",
+    r"nephobox\.com|freeterabox\.com|mirrobox\.com|"
+    r"terasharefile\.com)",
     re.IGNORECASE,
 )
 
