@@ -21,10 +21,6 @@ _TERABOX_DOMAINS = re.compile(
     r"4funbox\.co|4funbox\.com|momerybox\.com|tibibox\.com|"
     r"nephobox\.com|freeterabox\.com|mirrobox\.com|"
     r"terasharefile\.com|terasharelink\.com)",
-    r"(terabox\.com|teraboxapp\.com|1024terabox\.com|"
-    r"4funbox\.co|momerybox\.com|tibibox\.com|"
-    r"nephobox\.com|freeterabox\.com|mirrobox\.com|"
-    r"terasharefile\.com)",
     re.IGNORECASE,
 )
 
